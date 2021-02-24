@@ -59,14 +59,14 @@ body {
   transform: scale(1.5);
 }
 
-/* .section {
+.section {
   height: 100vh;
 }
 
 #welcome-section {
   position: relative;
   height: 90vh;
-} */
+}
 
 .headers {
     position: absolute;
@@ -89,6 +89,22 @@ body {
     animation: blink-2 1s 1s; 
 }
 
+#projects {
+  background-image: linear-gradient(
+    to right bottom, 
+    rgba(68, 157, 209, 0.8),
+    rgba(94, 74, 227, 0.8));
+    height: 100vh; 
+    padding: 2rem; 
+
+    box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, .25);
+}
+
+@media only screen and (max-width: 800px) {
+  #projects {
+      height: auto; 
+  }
+}
 
 /* ANIMATIONS */
 
