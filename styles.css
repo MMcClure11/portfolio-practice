@@ -178,6 +178,16 @@ body {
   padding-top: 0;
 }
 
+#profile-link {
+  text-decoration: none;
+  color: var(--white);
+}
+
+#profile-link:hover {
+  transform: scale(1.5);
+  color: var(--dark-red);
+}
+
 /* ANIMATIONS */
 
 @-webkit-keyframes slide-in-left {
