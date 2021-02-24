@@ -1,3 +1,34 @@
-h1 { 
-  color: red;
+:root {
+  /* FONT VARIABLES */
+--space: 'Space Grotesk', sans-serif;
+--work: 'Work Sans', sans-serif;
+
+  /* COLOR VARIABLES */
+
+--dark-gray: #3d3d3d;
+--light-gray: #9C9C9B; 
+--white: #FBFAF8;
+
+--dark-blue: #5E4AE3;
+--light-blue: #449DD1;
+--dark-red: #DB5461;
+--light-red: #DE646F; 
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0; 
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; 
+}
+
+body {
+  background-color: var(--dark-gray);
+  font-family: var(--work);
+  color: var(--white);
 }
