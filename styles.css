@@ -159,6 +159,25 @@ body {
   height: 60vh; 
 }
 
+.footer-header {
+  font-family: var(--space);
+  letter-spacing: .3rem;
+  font-size: 3rem;
+  font-weight: 300;
+  color: var(--light-blue);
+  padding: 3rem;
+  padding-bottom: 1rem; 
+}
+
+.footer-sub-header {
+  font-family: var(--work);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: .2rem;
+  padding: 2rem;
+  padding-top: 0;
+}
+
 /* ANIMATIONS */
 
 @-webkit-keyframes slide-in-left {
